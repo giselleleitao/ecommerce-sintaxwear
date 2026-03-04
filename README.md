@@ -1,1 +1,1 @@
-# ecommerce-sintaxwear
+# ecommerce-syntaxwear
