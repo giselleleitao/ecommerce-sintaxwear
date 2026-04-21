@@ -1,4 +1,87 @@
 /* 
  * FOOTER.CSS
- * Estilos do rodapé
+ * Esti{los do rodapé
  */
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.footer-content {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.125rem;
+}
+
+.newsletter-form input{
+  border-radius: 30px;
+  color: #AAAAAA; 
+  padding: 0.75rem 1.25rem;
+  width: 21.5rem;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;;
+}
+
+.footer-columns {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-nav h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-nav a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: #fff;
+}
+
+.footer-social span{
+  margin-bottom: 16px;
+  display: block;
+}
+
+.footer-social ul {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.footer-social ul li a:hover img {
+  opacity: 0.7;
+}
+
+.footer-divider {
+  margin: 20px 0;
+  border-color: #ffffff;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.25rem;
+}
+
